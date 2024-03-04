@@ -18,12 +18,12 @@ authors = ["The Palace Project <info@thepalaceproject.org>"]
 description = "Palace Client Utilities"
 homepage = "https://thepalaceproject.org"
 license = "Apache-2.0"
-name = "palace-client-utils"
-packages = [{include = "*", from = "client_utils"}]
+name = "client_utils"
 readme = "README.md"
 version = "0"
 
 [tool.poetry.dependencies]
+mutagen = "^1.47.0"
 pydantic = "^2.6.1"
 python = ">=3.10,<4"
 typer = "^0.9.0"
